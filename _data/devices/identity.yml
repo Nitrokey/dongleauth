@@ -46,6 +46,13 @@ websites:
       otp: Yes
       doc: https://helpdesk.lastpass.com/security-options/multifactor-authentication-options/
 
+    - name: MiiCard
+      url: http://www.miicard.com/
+      img: miicard.png
+      tfa: Yes
+      otp: Yes
+      doc: http://support.miicard.com/hc/communities/public/questions/204691829-Add-a-YubiKey-to-your-miiCard
+
     - name: MyDigipass.com
       url: https://mydigipass.com/
       img: mydigipass.png
@@ -65,6 +72,14 @@ websites:
       img: onelogin.png
       tfa: Yes
       doc: http://www.onelogin.com/product/strong-authentication/two-factor-authentication/
+      
+    - name: PassPack
+      url: https://www.passpack.com/
+      img: passpack.png
+      tfa: Yes
+      otp: Yes
+      email: Yes
+      doc: http://help.passpack.com/knowledgebase/idx.php/44/229/article/Two-Factor-Authentication-Set-Up.html
 
     - name: Persowna
       url: https://persowna.net
