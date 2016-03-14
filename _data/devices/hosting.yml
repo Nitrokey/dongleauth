@@ -9,7 +9,7 @@ websites:
       url: https://chunkhost.com
       img: chunkhost.png
       tfa: Yes
-      
+
     - name: CloudAtCost
       url: http://cloudatcost.com
       img: cloudatcost.png
@@ -93,8 +93,8 @@ websites:
       url: https://www.rackspace.com/
       twitter: rackspace
       img: rackspace.png
-      tfa: No
-      status: https://twitter.com/Rackspace/status/446469139947732992
+      tfa: Yes
+      doc: http://www.rackspace.com/knowledge_center/article/myrackspace-two-factor-authentication
 
     - name: RamNode
       url: http://www.ramnode.com
@@ -107,7 +107,7 @@ websites:
       img: softlayer.png
       tfa: Yes
       doc: http://knowledgelayer.softlayer.com/procedure/configure-portal-account-one-time-password-access-manage
-      
+
     - name: SpeedIT Solutions
       url: https://www.speedit.org/
       img: speedit.png
