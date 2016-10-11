@@ -184,6 +184,12 @@ providers:
 #    img: toopher.png
 #    otp: Yes
 
+  - name: TREZOR
+    url: https://trezor.io/
+    img: trezor.png
+    hardware: Yes
+    u2f: Yes
+
   - name: U2F Zero
     img: u2fzero.png
     u2f: Yes
