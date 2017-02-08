@@ -85,6 +85,12 @@ websites:
       twitter: Xero
       img: xero.png
 
+    - name: You Need A Budget
+      url: https://www.youneedabudget.com/
+      twitter: ynab
+      img: ynab.png
+      tfa: no
+
     - name: Yodlee Moneycenter
       url: https://yodleemoneycenter.com/
       twitter: Yodlee
