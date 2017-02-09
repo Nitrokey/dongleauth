@@ -34,6 +34,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      hardware: Yes
       doc: https://www.facebook.com/help/148233965247823
 
     - name: Google+
