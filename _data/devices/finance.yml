@@ -27,7 +27,10 @@ websites:
       url: https://turbotax.intuit.com/
       twitter: turbotax
       img: turbotax.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: No
+      doc: https://ttlc.intuit.com/questions/2804542-how-do-i-enable-two-factor-authentication
 
     - name: Kiva
       url: https://www.kiva.org
@@ -45,7 +48,10 @@ websites:
       url: https://www.mint.com
       twitter: mint
       img: mint.png
-      tfa: No
+      tfa: Yes
+      otp: No
+      u2f: No
+      doc: https://mint.lc.intuit.com/announcements/1286158
 
     - name: Neteller
       url: http://www.neteller.com/
