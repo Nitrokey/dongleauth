@@ -67,6 +67,19 @@ websites:
       tfa: Yes
       doc: https://help.linkedin.com/app/answers/detail/a_id/544/ft/eng
 
+    - name: Mastodon
+      url: https://joinmastodon.org
+      twitter: MastodonProject
+      img: mastodon.png
+      tfa: Yes
+      email: No
+      sms: No
+      software: Yes
+      hardware: No
+      exceptions:
+          text: "2-factor is supported by the Mastodon upstream codebase, but every instance in the federated platform runs its own code"
+      doc: https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/2FA.md
+
     - name: Reddit
       url: https://www.reddit.com/
       twitter: reddit
