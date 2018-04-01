@@ -84,6 +84,7 @@ websites:
       img: lastpass.png
       tfa: Yes
       otp: Yes
+      u2f: Yes
       doc: https://helpdesk.lastpass.com/security-options/multifactor-authentication-options/
 
     - name: LinOTP
