@@ -9,10 +9,9 @@ websites:
     - name: BitBay
       url: https://bitbay.net/
       img: bitbay.png
-      tfa: Yes
-      sms: Yes
+      tfa: No
+      sms: No
       software: Yes
-      doc: https://www.youtube.com/watch?v=KFvoNHgl9Pw
 
     - name: Bitcoin.de
       url: https://bitcoin.de
