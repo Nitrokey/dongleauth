@@ -6,6 +6,18 @@ websites:
       twitter: airvpn
       facebook: airvpn.org
 
+    - name: Bitwarden
+      url: https://bitwarden.com/
+      img: bitwarden.png
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      software: Yes
+      email: Yes
+      doc: https://help.bitwarden.com/article/setup-two-step-login/
+      exception:
+        text: "U2F only for paid accounts"
+
     - name: Blur
       url: https://www.abine.com/
       img: blur.png
