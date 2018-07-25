@@ -233,7 +233,6 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      u2f: No
       doc: https://userify.com/docs/multifactor-authentication/
 
     - name: Vultr
