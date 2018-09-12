@@ -4,6 +4,7 @@ websites:
       img: 1password.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.1password.com/two-factor-authentication/
 
     - name: Bitium
