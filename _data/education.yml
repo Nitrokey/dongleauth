@@ -245,6 +245,15 @@ websites:
       img: mystudylife.png
       tfa: No
 
+    - name: Open Science Framework
+      url: https://osf.io
+      tfa: yes
+      software: yes
+      sms: no
+      hardware: no
+      phone: no
+      doc: http://help.osf.io/m/settings/l/524222-enable-or-disable-two-factor-authentication
+      
     - name: Pennsylvania State University
       url: http://www.psu.edu/
       img: psu.png
