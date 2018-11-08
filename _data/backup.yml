@@ -147,6 +147,14 @@ websites:
     sms: Yes
     software: Yes
     doc: http://support.nimbox.co.uk/knowledge_base/topics/two-step-slash-two-factor-authentication
+    
+  - name: Nextcloud
+    url: https://nextcloud.com/
+    img: nextcloud.png
+    tfa: Yes
+    software: Yes
+    hardware: Yes
+    doc: https://apps.nextcloud.com/apps/twofactor_u2f
 
   - name: OneDrive
     url: https://onedrive.live.com
