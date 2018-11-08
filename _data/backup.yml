@@ -150,7 +150,7 @@ websites:
     
   - name: Nextcloud
     url: https://nextcloud.com/
-    img: nextcloud.png
+    img: nextcloud.svg
     tfa: Yes
     software: Yes
     hardware: Yes
