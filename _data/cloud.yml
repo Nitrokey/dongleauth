@@ -8,6 +8,7 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
+      multipleu2f: No
       doc: https://aws.amazon.com/iam/details/mfa/
 
     - name: appFog
@@ -74,6 +75,7 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
+      multipleu2f: Yes
       doc: https://www.google.com/intl/en-US/landing/2step/features.html
 
     - name: Heroku
