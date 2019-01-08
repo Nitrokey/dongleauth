@@ -16,7 +16,6 @@
       -->
       <th class="two wide">One Time Passwords (OTP)</th>
       <th class="two wide">Universal 2nd Factor (U2F)</th>
-      <th class="two wide">Multiple Dongle Support (>1)</th>
     </tr>
     </thead>
     <tbody class="jets-content">
@@ -96,11 +95,8 @@
           {% if website.u2f %}
           <i class="checkmark large icon" title="Universal 2nd Factor (U2F)"></i>
           {% endif %}
-        </td>
-
-        <td class="positive icon">
           {% if website.multipleu2f %}
-          <i class="checkmark large icon" title="Multiple Dongle Support (>1)"></i>
+          <i class="clone large icon" title="Multiple Dongle Support (>1)"></i>
           {% endif %}
         </td>
       {% else %}
