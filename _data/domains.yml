@@ -495,7 +495,7 @@ websites:
       
     - name: PowerDNS-Admin
       url: https://github.com/ngoduykhanh/PowerDNS-Admin
-      img: powerdns.png
+      img: pdnsadmin.png
       otp: yes
       doc: https://github.com/ngoduykhanh/PowerDNS-Admin/blob/master/README.md
 
