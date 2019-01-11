@@ -496,7 +496,9 @@ websites:
     - name: PowerDNS-Admin
       url: https://github.com/ngoduykhanh/PowerDNS-Admin
       img: pdnsadmin.png
-      otp: yes
+      tfa: Yes
+      software: Yes
+      otp: Yes
       doc: https://github.com/ngoduykhanh/PowerDNS-Admin/blob/master/README.md
 
     - name: Rebel.com
