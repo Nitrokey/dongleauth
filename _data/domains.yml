@@ -492,6 +492,12 @@ websites:
       tfa: Yes
       software: Yes
       doc: https://porkbun.com/products/two_factor_authentication
+      
+    - name: PowerDNS-Admin
+      url: https://github.com/ngoduykhanh/PowerDNS-Admin
+      img: powerdns.png
+      otp: yes
+      doc: https://github.com/ngoduykhanh/PowerDNS-Admin/blob/master/README.md
 
     - name: Rebel.com
       url: https://www.rebel.com/
