@@ -8,7 +8,6 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
-      multipleu2f: No
       doc: https://aws.amazon.com/iam/details/mfa/
 
     - name: appFog

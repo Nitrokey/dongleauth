@@ -123,7 +123,6 @@ websites:
     hardware: Yes
     otp: Yes
     u2f: Yes
-    multipleu2f: No
     doc: <link to site TFA documentation>
 ```
 
@@ -145,7 +144,6 @@ The following is an example of a website that *supports* TFA but not multiple do
       hardware: Yes
       otp: Yes
       u2f: Yes
-      multipleu2f: No
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 ```
 
@@ -166,7 +164,6 @@ The following is an example of a website that *does not* support TFA:
       email_address: example@netflix.com (Only if available and monitored)
       img: netflix.png
       tfa: No
-      multipleu2f: No
       lang: <ISO 639-1 language code> (Only for non-English websites)
 ```
 
@@ -254,8 +251,8 @@ website. There are 4 ways to customize how it is displayed:
 There are many forms of Two Factor Auth, but DongleAuth.info is only interested in
 listing sites that support Two Factor Authentication using USB dongles. Currently
 that means the site must support either One Time Passwords (HOTP / RFC 4226 or TOTP / RFC 6238)
-or FIDO Universal 2nd Factor (U2F). If a site supports >1 U2F dongle, `multipleu2f`
-may be set to `Yes`.
+or FIDO Universal 2nd Factor (U2F). If a site supports multiple U2F dongles (e.g. as a backup),
+`multipleu2f` may be set to `Yes`.
 
 A lot of people have different ideas of what constitutes Two Factor Auth and
 what doesn't, so it stands to reason that we should clarify a bit. For the

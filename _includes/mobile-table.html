@@ -34,9 +34,9 @@
         {% endif %}
         {% if website.u2f %}
           <p><i class="checkmark small icon" title="U2F"></i> Universal 2nd Factor (U2F)</p>
-          {% if website.multipleu2f %}
-            <p><i class="clone small icon" title="Multiple U2F"></i> Multiple Dongle Support (>1)</p>
-          {% endif %}
+        {% if website.multipleu2f %}
+          <p><i class="clone small icon" title="Multiple U2F"></i> Multiple Dongle Support (>1)</p>
+        {% endif %}
         {% endif %}
       </div>
       {% if website.doc %}

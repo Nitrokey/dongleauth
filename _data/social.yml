@@ -259,7 +259,6 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
-      multipleu2f: No
       exceptions:
           text: "SMS only available on select providers. Phone number associated with account required for 2FA. 10 accounts per phone number, 1 phone number per account."
       software: Yes
