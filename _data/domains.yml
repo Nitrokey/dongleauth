@@ -491,6 +491,7 @@ websites:
       img: porkbun.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://porkbun.com/products/two_factor_authentication
 
     - name: Rebel.com
