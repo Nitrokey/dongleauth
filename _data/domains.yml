@@ -227,6 +227,7 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
+      multipleu2f: Yes
       doc: https://doc.gandi.net/en/organization/users/security
 
     - name: GoDaddy
