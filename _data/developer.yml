@@ -438,14 +438,13 @@ websites:
 
     - name: PyPI
       url: https://pypi.org/
-      twitter: pypi
       img: pypi.png
       tfa: Yes
-      multipleu2f: Yes
       software: Yes
       hardware: Yes
-      otp: Yes
-      doc: https://pypi.org/manage/account/#two-factor
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://pypi.org/help/#2fa
 
     - name: PythonAnywhere
       url: https://www.pythonanywhere.com
