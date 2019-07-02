@@ -444,7 +444,7 @@ websites:
       hardware: Yes
       u2f: Yes
       multipleu2f: Yes
-      doc: https://pypi.org/help/#2fa
+      doc: https://pypi.org/help/#twofa
 
     - name: PythonAnywhere
       url: https://www.pythonanywhere.com
