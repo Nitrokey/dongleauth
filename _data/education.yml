@@ -426,3 +426,9 @@ websites:
       software: Yes
       hardware: Yes
       doc: https://www.tech.it.vt.edu/2factor/
+      
+    - name: Karlsruher Institut für Technologie
+      url: https://my.scc.kit.edu
+      otp: Yes
+      u2f: Yes
+      doc: https://www.scc.kit.edu/dienste/2fa.php
