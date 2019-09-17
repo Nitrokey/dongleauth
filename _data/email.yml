@@ -234,6 +234,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://tutanota.com/faq/#2fa
 
     - name: Virgin Media E-Mail
