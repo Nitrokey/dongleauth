@@ -273,10 +273,9 @@ websites:
       sms: Yes
       phone: Yes
       hardware: yes
-      software: yes
-      otp: No
       u2f: Yes
       multipleu2f: Yes
+      software: yes
       doc: https://miamioh.edu/it-services/initiatives-and-projects/info-security/duo/
 
     - name: Montclair State University
