@@ -431,6 +431,7 @@ websites:
       img: nominet.png
       tfa: Yes
       software: Yes
+      hardware: Yes
       otp: Yes
       doc: https://registrars.nominet.org.uk/sites/default/files/two_factor_authentication_userguide.pdf
 
