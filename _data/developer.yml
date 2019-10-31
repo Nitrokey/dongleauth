@@ -531,7 +531,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://sourceforge.net/blog/introducing-multifactor-authentication-on-sourceforge/
+      doc: https://sourceforge.net/p/forge/documentation/Multifactor%20Authentication/
 
     - name: Status.io
       url: https://status.io/
