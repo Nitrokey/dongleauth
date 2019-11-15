@@ -114,6 +114,20 @@ websites:
       otp: Yes
       doc: https://www.mydigipass.com/en/fp/signup
 
+    - name: Passpack
+      url: https://www.passpack.com/
+      img: passpack.png
+      tfa: Yes
+      otp: No
+      u2f: Yes
+      multipleu2f: Yes
+      email: Yes
+      hardware: Yes
+      sms: No
+      exceptions:
+        text: "Only YubiKey can be used other FIDO U2F does not support."
+      doc: https://support.passpack.com/hc/en-us
+
     - name: Okta
       url: https://www.okta.com/
       img: okta.png
@@ -136,14 +150,6 @@ websites:
       exceptions:
           text: "Hardware tokens only work on desktop."
       doc: https://passhub.net/security.php
-
-    - name: Passpack
-      url: https://www.passpack.com/
-      img: passpack.png
-      tfa: Yes
-      email: Yes
-      hardware: Yes
-      doc: https://help.passpack.com/knowledgebase/idx.php/44/0/
 
     - name: RoboForm
       url: https://www.roboform.com/
