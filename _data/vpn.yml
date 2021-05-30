@@ -53,7 +53,7 @@ websites:
     - name: NordVPN
       url: https://nordvpn.com
       img: nordvpn.png
-      tfa: No
+      tfa: Yes
       twitter: NordVPN
       facebook: NordVPN
       email_address: support@nordvpn.com
