@@ -66,7 +66,7 @@ websites:
     - name: Tesla
       url: https://www.tesla.com
       img: tesla.png
-      tfa: No
+      tfa: Yes
       twitter: Tesla
 
     - name: Total Connect Comfort
