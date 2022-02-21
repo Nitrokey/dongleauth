@@ -9,3 +9,12 @@ jobs:
         with:
           bundler-cache: true
       - run: bundle exec rake
+      - run: bundle exec ruby ./tests/validate-json.rb
+      - run: bundle exec ruby ./tests/region-codes.rb
+      - run: bundle exec ruby ./tests/language-codes.rb
+      - run: ./tests/file-extensions.sh
+      - run: bundle exec ruby ./tests/validate-images.rb
+      - run: bundle exec ruby ./tests/validate-urls.rb
+        continue-on-error: true
+      - run: bundle exec ruby ./tests/quality-checks.rb
+      - run: bundle exec rubocop
