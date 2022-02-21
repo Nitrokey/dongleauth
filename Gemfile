@@ -10,6 +10,7 @@ group :test do
   gem 'diffy'
   gem 'fastimage'
   gem 'html-proofer'
+  gem 'json_schemer'
   gem 'jsonlint'
   gem 'kwalify'
   gem 'rake'
