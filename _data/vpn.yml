@@ -119,3 +119,9 @@ websites:
       twitter: windscribecom
       facebook: windscribe
       email_address: support@windscribe.com
+    
+    - name: TorGuard
+      url: https://torguard.net
+      tfa: No
+      twitter: torguard
+      email_address: helpdesk@torguard.net
