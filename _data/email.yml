@@ -184,6 +184,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://protonmail.com/support/knowledge-base/two-factor-authentication/
 
     - name: Riseup Mail
