@@ -28,7 +28,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: /notes/schwab/
+      otp: Yes
+      doc: https://www.schwab.com/help/two-factor-authentication
 
     - name: COL Financial
       url: https://www.colfinancial.com
