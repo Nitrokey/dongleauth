@@ -26,6 +26,7 @@ websites:
       url: https://www.schwab.com/
       img: charlesschwab.png
       tfa: Yes
+      sms: Yes
       software: Yes
       hardware: Yes
       otp: Yes
