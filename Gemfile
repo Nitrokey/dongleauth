@@ -15,3 +15,5 @@ group :test do
   gem 'rake'
   gem 'rubocop'
 end
+
+gem "webrick", "~> 1.7"

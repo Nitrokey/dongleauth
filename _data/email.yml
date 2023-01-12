@@ -315,4 +315,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://adminconsole.wiki.zoho.com/mail/Two-Factor-Authentication.html
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://help.zoho.com/portal/en/kb/accounts/multi-factor-authentication
