@@ -55,6 +55,13 @@ websites:
       img: americafirstcu.png
       tfa: No
 
+    - name: American Airline Credit Union
+      url: https://www.aacreditunion.org/
+      twitter: AACreditUnion
+      facebook: AACreditUnion
+      img: aacreditunion.png
+      tfa: No
+
     - name: American Express
       url: https://www.americanexpress.com/
       twitter: AmericanExpress
