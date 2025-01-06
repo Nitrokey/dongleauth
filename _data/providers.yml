@@ -4,6 +4,12 @@
 
 providers:
 
+  - name: BitBox
+    url: https://bitbox.swiss/
+    img: bitbox.png
+    otp: No
+    u2f: Yes
+
   - name: DigiFlak
     url: http://www.digiflak.com
     img: digiflak.png
@@ -75,12 +81,6 @@ providers:
     img: secalot.png
     hardware: Yes
     otp: Yes
-    u2f: Yes
-    
-  - name: Shift Cryptosecurity
-    url: https://shiftcrypto.ch
-    img: shiftcrypto.png
-    otp: No
     u2f: Yes
     
   - name: SoloKeys
