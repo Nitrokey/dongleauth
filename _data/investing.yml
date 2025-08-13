@@ -30,6 +30,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      exceptions:
+        text: "OTP only available via a symantec vip (physical) token or the Symantec VIP Access smartphone app"
       doc: https://www.schwab.com/help/two-factor-authentication
 
     - name: COL Financial
@@ -55,7 +57,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      exceptions: 
+      exceptions:
         text: "OTP implementation requires Etrade App"
       doc: https://us.etrade.com/security-center/securityid
 
