@@ -926,6 +926,17 @@ websites:
         text: "OTP implementation requires Rabo App"
       doc: https://www.rabobank.nl/particulieren/betalen/rabo-scanner/
 
+    - name: Raiffeisen Bank CH
+      url: https://www.raiffeisen.ch
+      img: raiffeisen_ch.png
+      doc: https://www.raiffeisen.ch/rch/de/hilfe-und-kontakt/raiffeisen-login/login-mit-phototan.html
+      exceptions:
+        text: "PhotoTAN works with a smartphone app or with a dedicated device"
+      tfa: Yes
+      otp: no
+      u2f: no
+      hardware: Yes
+
     - name: Raiffeisen Bank CZ
       url: https://www.rb.cz/
       img: raiffeisenbank_cz.png
@@ -1043,6 +1054,16 @@ websites:
         text: "2FA authentication via BankID for Swedish Citizens only."
       doc: https://seb.se/privat/digitala-tjanster
 
+    - name: SEBA Bank
+      url: https://seba.swiss
+      img: seba.png
+      exceptions:
+        text: "2FA with a proprietary app that is only available for iOS and Android"
+      tfa: Yes
+      otp: no
+      hardware: no
+      u2f: no
+
     - name: Service Credit Union
       url: https://www.servicecu.org/
       img: service_cu.png
@@ -1135,6 +1156,16 @@ websites:
       exceptions: 
         text: "OTP via BankID available to Swedish Citizens only"
       doc: https://www.swedbank.se/privat/digitala-tjanster/mobilt-bankid/fragor-och-svar-om-mobilt-bankid.html
+
+    - name: Swissquote
+      url: https://de.swissquote.com
+      img: swissquote.png
+      exceptions:
+        text: "2FA with codes on paper"
+      tfa: Yes
+      otp: no
+      hardware: no
+      u2f: no
 
     - name: Synchrony Bank
       url: https://www.synchronybank.com
