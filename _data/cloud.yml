@@ -107,10 +107,10 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://cloud.ibm.com/docs/iam?topic=iam-types
+      u2f: Yes
+      doc: https://cloud.ibm.com/docs/account?topic=account-types#mfa-options-all-users
 
     - name: Joyent
       url: https://www.joyent.com/
