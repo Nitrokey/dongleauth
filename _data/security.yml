@@ -178,6 +178,14 @@ websites:
       u2f: Yes
       doc: https://support.norton.com/sp/en/us/home/current/solutions/v100023155_NortonM_Retail_1_en_us
 
+    - name: Pass Revelator
+      url: https://www.passwordrevelator.net
+      img: passrevelator.png
+      tfa: Yes
+      software: Yes
+      otp: Yes
+      doc: https://www.passwordrevelator.net/blog/en/how-bypass-authentication-a-two-factors-2fa-2/
+
     - name: Prey
       url: https://www.preyproject.com
       img: prey.png
