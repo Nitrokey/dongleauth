@@ -272,6 +272,14 @@ websites:
       otp: Yes
       doc: https://coinspot.zendesk.com/hc/en-us/articles/4457359977615-CoinSpot-Mobile-App-How-to-set-up-2FA
 
+      - name: Coin Wallet
+      url: https://coin.space/
+      img: coinwallet.png
+      tfa: Yes
+      hardware: Yes
+      u2f: Yes
+      doc: https://coin.space/how-to-set-up-a-hardware-security-key-for-your-crypto-wallet-step-by-step-guide/
+
     - name: CoinTracking
       url: https://cointracking.info/
       img: cointracking.png
