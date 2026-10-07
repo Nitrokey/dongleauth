@@ -222,8 +222,8 @@ websites:
       otp: Yes
       doc: https://www.google.com/intl/en-US/landing/2step/features.html
 
-    - name: Google Fiber
-      url: https://fiber.google.com/
+    - name: GFiber
+      url: https://gfiber.com/
       img: googlefiber.png
       tfa: Yes
       sms: Yes
@@ -231,7 +231,6 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://www.google.com/intl/en-US/landing/2step/features.html
 
     - name: Halebop
       url: https://www.halebop.se/
