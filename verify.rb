@@ -77,7 +77,7 @@ begin
   sections = YAML.load_file('_data/sections.yml')
   # Check sections.yml alphabetization
   error('section.yml is not alphabetized by name') \
-    if sections != (sections.sort_by { |section| section['id'].downcase })
+    if sections != sections.sort_by { |section| section['id'].downcase }
   schema = YAML.load_file('websites_schema.yml')
   validator = Kwalify::Validator.new(schema)
   sections.each do |section|
@@ -126,7 +126,7 @@ begin
 
   # Check section alphabetization
   error('_data/providers.yml is not alphabetized by name') \
-    if providers != (providers.sort_by { |provider| provider['name'].downcase })
+    if providers != providers.sort_by { |provider| provider['name'].downcase }
 
   # Collect list of all images for section
   imgs = Dir['img/providers/*']
