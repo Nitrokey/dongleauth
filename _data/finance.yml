@@ -74,7 +74,7 @@ websites:
       img: chargebee.png
       tfa: Yes
       otp: Yes
-      doc: https://www.chargebee.com/docs/2fa.html    
+      doc: https://www.chargebee.com/docs/2fa.html
 
     - name: ClearScore
       url: https://www.clearscore.com
@@ -351,17 +351,20 @@ websites:
       otp: Yes
       doc: https://www.taxact.com/support/24138/2016/how-is-a-verification-code-used
 
-    - name: TransferWise
-      url: https://transferwise.com
-      img: transferwise.png
+    - name: Wise
+      url: https://wise.com
+      img: wise.png
       tfa: Yes
       sms: Yes
       phone: Yes
       software: Yes
       otp: Yes
-      doc: https://transferwise.com/help/12/managing-your-profile/2932125
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
+      doc: https://wise.com/help/12/managing-your-profile/2932125
       exceptions:
-        text: "Software verification requires use of the TransferWise Mobile app. SMS-capable phone is required."
+        text: "Software verification requires use of the Wise Mobile app. SMS-capable phone is required."
 
     - name: Treasury Direct
       url: https://www.treasurydirect.gov
